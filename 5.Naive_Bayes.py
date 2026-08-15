@@ -7,7 +7,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, f1_score, precision_score, recall_score
 from sklearn.metrics import ConfusionMatrixDisplay
 
-#help(GaussianNB)
+
 ##################### 1.load data ############################
 df = pd.read_csv("Dry_Bean.csv")
 print(df.head())
