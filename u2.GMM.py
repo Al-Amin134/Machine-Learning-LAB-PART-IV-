@@ -6,7 +6,7 @@ from sklearn.mixture import GaussianMixture
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score, adjusted_rand_score, normalized_mutual_info_score
 from sklearn import metrics
-#help()
+
 df = pd.read_csv("Mall_Customers.csv")
 print(df.head())
 
